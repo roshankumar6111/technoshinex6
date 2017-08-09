@@ -1,0 +1,71 @@
+[06-Aug-2016 14:52:23 Asia/Kolkata] PHP Warning:  require(/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/classes/user.class.php on line 112
+[06-Aug-2016 14:52:23 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required '/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 03:03:16 Asia/Kolkata] PHP Warning:  require(/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 03:03:16 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required '/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 11:43:20 Asia/Kolkata] PHP Warning:  require(/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 11:43:20 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required '/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 11:48:09 Asia/Kolkata] PHP Warning:  require(/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 11:48:09 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required '/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 14:28:19 Asia/Kolkata] PHP Warning:  require(/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 14:28:19 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required '/home/cadnitd/public_html/classes../PHPMailer-Master/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 14:35:05 Asia/Kolkata] PHP Warning:  require(PHPMailer-Master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 14:35:05 Asia/Kolkata] PHP Warning:  require(PHPMailer-Master/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 14:35:05 Asia/Kolkata] PHP Fatal error:  require(): Failed opening required 'PHPMailer-Master/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/classes/user.class.php on line 112
+[07-Aug-2016 12:14:19 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/cadnitd/public_html/classes/user.class.php on line 82
+[07-Aug-2016 12:35:11 UTC] PHP Warning:  require_once(/home/cadnitd/public_html/classes/class.phpmailer.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 12:35:11 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cadnitd/public_html/classes/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 12:35:11 UTC] PHP Warning:  require_once(/home/cadnitd/public_html/classes/class.phpmailer.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 12:35:11 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cadnitd/public_html/classes/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 12:35:45 UTC] PHP Warning:  require_once(/home/cadnitd/public_html/classes/class.phpmailer.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 12:35:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cadnitd/public_html/classes/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 12:36:41 UTC] PHP Warning:  require_once(/home/cadnitd/public_html/classes/class.phpmailer.php): failed to open stream: No such file or directory in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 12:36:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cadnitd/public_html/classes/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cadnitd/public_html/config.php on line 9
+[07-Aug-2016 18:20:56 Asia/Kolkata] PHP Warning:  Missing argument 2 for User::send_mail(), called in /home/cadnitd/public_html/classes/user.class.php on line 72 and defined in /home/cadnitd/public_html/classes/user.class.php on line 132
+[07-Aug-2016 18:21:45 Asia/Kolkata] PHP Warning:  Missing argument 2 for User::send_mail(), called in /home/cadnitd/public_html/classes/user.class.php on line 72 and defined in /home/cadnitd/public_html/classes/user.class.php on line 132
+[07-Aug-2016 18:36:27 Asia/Kolkata] PHP Fatal error:  Call to undefined method User::active() in /home/cadnitd/public_html/index.php on line 60
+[07-Aug-2016 18:38:48 Asia/Kolkata] PHP Fatal error:  Call to undefined method User::active() in /home/cadnitd/public_html/index.php on line 60
+[03-Sep-2016 12:24:51 Asia/Kolkata] PHP Warning:  header() expects parameter 3 to be long, array given in /home/cadnitd/public_html/core/functions.php on line 16
+[03-Sep-2016 12:33:02 Asia/Kolkata] PHP Warning:  Division by zero in /home/cadnitd/public_html/core/functions.php on line 27
+[03-Sep-2016 12:43:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/cadnitd/public_html/core/functions.php on line 27
+[03-Sep-2016 12:49:21 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cadnitd/public_html/core/functions.php:33) in /home/cadnitd/public_html/core/functions.php on line 21
+[03-Sep-2016 13:00:02 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cadnitd/public_html/core/functions.php:33) in /home/cadnitd/public_html/core/functions.php on line 21
+[03-Sep-2016 13:26:00 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/cadnitd/public_html/template/index.php on line 153
+[03-Sep-2016 13:26:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/cadnitd/public_html/template/index.php on line 153
+[03-Sep-2016 13:29:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/cadnitd/public_html/template/index.php on line 154
+[03-Sep-2016 13:29:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/cadnitd/public_html/template/index.php on line 154
+[03-Sep-2016 13:29:16 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/cadnitd/public_html/template/index.php on line 154
+[03-Sep-2016 13:34:14 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cadnitd/public_html/core/functions.php:33) in /home/cadnitd/public_html/core/functions.php on line 21
+[03-Sep-2016 15:58:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/cadnitd/public_html/template/onlineevent.php on line 110
+[03-Sep-2016 16:00:33 Asia/Kolkata] PHP Warning:  Illegal string offset 'site.root' in /home/cadnitd/public_html/template/onlineevent.php on line 109
+[04-Sep-2016 03:01:54 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/cadnitd/public_html/classes/database.class.php:14
+Stack trace:
+#0 /home/cadnitd/public_html/classes/database.class.php(14): PDO->__construct('mysql:host=loca...', 'cadnitd_root', 'b(Q;*4+6H[%x')
+#1 /home/cadnitd/public_html/config.php(21): Database->__construct()
+#2 /home/cadnitd/public_html/index.php(3): require('/home/cadnitd/p...')
+#3 {main}
+  thrown in /home/cadnitd/public_html/classes/database.class.php on line 14
+[06-Sep-2016 22:53:06 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cadnitd/public_html/core/functions.php:33) in /home/cadnitd/public_html/core/functions.php on line 21
+[11-Sep-2016 00:44:53 Asia/Kolkata] PHP Fatal error:  Call to a member function finish() on null in /home/cadnitd/public_html/index.php on line 113
+[11-Sep-2016 00:49:47 Asia/Kolkata] PHP Fatal error:  Call to a member function finish() on null in /home/cadnitd/public_html/index.php on line 113
+[11-Sep-2016 00:59:18 Asia/Kolkata] PHP Fatal error:  Call to a member function finish() on null in /home/cadnitd/public_html/index.php on line 113
+[15-Sep-2016 15:31:54 Asia/Kolkata] PHP Fatal error:  Call to undefined method Database::execute() in /home/cadnitd/public_html/classes/nethunt.class.php on line 65
+[23-Sep-2016 18:52:13 Asia/Kolkata] PHP Warning:  session_start(): Cannot start session with empty session ID in /home/cadnitd/public_html/index.php on line 140
+[23-Sep-2016 18:52:29 Asia/Kolkata] PHP Warning:  session_start(): Cannot start session with empty session ID in /home/cadnitd/public_html/index.php on line 140
+[23-Sep-2016 18:52:34 Asia/Kolkata] PHP Warning:  session_start(): Cannot start session with empty session ID in /home/cadnitd/public_html/index.php on line 140
+[23-Sep-2016 23:48:06 Asia/Kolkata] PHP Warning:  session_start(): Cannot start session with empty session ID in /home/cadnitd/public_html/index.php on line 140
+[23-Sep-2016 23:49:35 Asia/Kolkata] PHP Warning:  session_start(): Cannot start session with empty session ID in /home/cadnitd/public_html/index.php on line 140
+[24-Sep-2016 13:39:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''><i class='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/cadnitd/public_html/template/nethunt_leaderboard.php on line 86
+[17-Feb-2017 07:50:08 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home/cadnitd/public_html/classes/database.class.php:14
+Stack trace:
+#0 /home/cadnitd/public_html/classes/database.class.php(14): PDO->__construct('mysql:host=loca...', 'cadnitd_root', 'b(Q;*4+6H[%x')
+#1 /home/cadnitd/public_html/config.php(22): Database->__construct()
+#2 /home/cadnitd/public_html/index.php(3): require('/home/cadnitd/p...')
+#3 {main}
+  thrown in /home/cadnitd/public_html/classes/database.class.php on line 14
+[17-Feb-2017 12:08:59 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/cadnitd/public_html/classes/database.class.php:14
+Stack trace:
+#0 /home/cadnitd/public_html/classes/database.class.php(14): PDO->__construct('mysql:host=loca...', 'cadnitd_root', 'b(Q;*4+6H[%x')
+#1 /home/cadnitd/public_html/config.php(22): Database->__construct()
+#2 /home/cadnitd/public_html/index.php(3): require('/home/cadnitd/p...')
+#3 {main}
+  thrown in /home/cadnitd/public_html/classes/database.class.php on line 14

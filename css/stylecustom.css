@@ -1,0 +1,53 @@
+/*sponser img responsive*/
+.sponsorimg{
+	margin:1vw 0vw ;
+	height:6vw ; 
+	width:auto;
+	content:" ";
+	/* position:absolute; */
+	z-index:1;
+/*
+
+	-webkit-box-shadow:0 15px 20px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 15px 20px rgba(0,0,0,0.3);
+	box-shadow:0 15px 20px rgba(0,0,0,0.3);
+*/
+
+	
+	left:15%;
+	bottom:0;
+	
+}
+@media screen and(max-width: 450px){
+	
+	.spondorimg{
+		height:8vw;
+		width:auto;
+	}
+}
+.textdesign{
+	text-shadow:0 2px 0 white;
+	color:#292929;
+	/* color:white; */
+	font-size:5vw;
+	margin-top:-50px; 
+}
+.textdesignmember{
+	text-shadow:0 2px 0 yellow;
+	color:black;
+	font-size:4vw;
+	margin-top:-190px;
+	float:left;
+	margin-left:40vw;
+}
+.video{
+	height:27vw;
+	width:50vw;
+		z-index:1;
+	-webkit-box-shadow:0 15px 20px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 15px 20px rgba(0,0,0,0.3);
+	box-shadow:0 15px 20px rgba(0,0,0,0.3);
+	left:15%;
+	bottom:0;
+	content:" ";
+}

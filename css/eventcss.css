@@ -1,0 +1,892 @@
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+    .overlay a {
+        font-size: 20px
+    }
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* overlay for online event two */
+
+.overlayoetwo {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlayoetwo-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayoetwo a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayoetwo a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnoetwo {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayoetwo {
+        overflow-y: auto;
+    }
+    .overlayoetwo a {
+        font-size: 20px
+    }
+    .closebtnoetwo {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* online event two overlay */
+
+.overlay2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay2-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay2 a:hover,
+.overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+.closebtn2 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay2 a {
+        font-size: 20px
+    }
+    .closebtn2 {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* online event three */
+
+.overlayoethree {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlayoethree-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayoethree a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayoethree a:hover,
+.overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnoethree {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayoethree a {
+        font-size: 20px
+    }
+    .closebtn2oethree {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* online event four */
+
+.overlayoefour {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlayoefour-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayoefour a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayoefour a:hover,
+.overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnoefour {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayoefour a {
+        font-size: 20px
+    }
+    .closebtn2oefour {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* online event five */
+
+.overlayoefive {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlayoefive-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayoefive a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayoefive a:hover,
+.overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnoefive {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayoefive a {
+        font-size: 20px
+    }
+    .closebtn2oefive {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* online event six */
+
+.overlayoesix {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlayoesix-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayoesix a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayoesix a:hover,
+.overlay2 a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnoesix {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayoesix a {
+        font-size: 20px
+    }
+    .closebtn2oesix {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* ofline event 1  */
+
+.overlayofe1 {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlayofe1-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayofe1 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayofe1 a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnofe1 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayofe1 {
+        overflow-y: auto;
+    }
+    .overlayofe1 a {
+        font-size: 20px
+    }
+    .closebtnofe1 {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* ofline event 2  */
+
+.overlayofe2 {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlayofe2-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayofe2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayofe2 a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnofe2 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayofe2 {
+        overflow-y: auto;
+    }
+    .overlayofe2 a {
+        font-size: 20px
+    }
+    .closebtnofe2 {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* ofline event 3  */
+
+.overlayofe3 {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlayofe3-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayofe3 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayofe3 a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnofe3 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayofe3 {
+        overflow-y: auto;
+    }
+    .overlayofe3 a {
+        font-size: 20px
+    }
+    .closebtnofe3 {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* ofline event 4  */
+
+.overlayofe4 {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlayofe4-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayofe4 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayofe4 a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnofe4 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayofe4 {
+        overflow-y: auto;
+    }
+    .overlayofe4 a {
+        font-size: 20px
+    }
+    .closebtnofe4 {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* ofline event 5  */
+
+.overlayofe5 {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlayofe5-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayofe5 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayofe5 a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnofe5 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayofe5 {
+        overflow-y: auto;
+    }
+    .overlayofe5 a {
+        font-size: 20px
+    }
+    .closebtnofe5 {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* ofline event 6  */
+
+.overlayofe6 {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 8000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlayofe6-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayofe6 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayofe6 a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtnofe6 {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayofe6 {
+        overflow-y: auto;
+    }
+    .overlayofe6 a {
+        font-size: 20px
+    }
+    .closebtnofe6 {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* member css */
+/*
+
+.memberimgsize {
+  
+    width:150px;
+    position: absolute;
+    left:0;
+    transition: all 0.4s ease;
+}
+*/
+/*
+.memdis{
+    margin:40px 10px 0px 10px;
+}
+*/
+/*
+.member-post,
+.member-name {
+    position: absolute;
+    top: 100%;
+    left:0;
+    padding: 5px 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    width: 100%;
+    color: white;
+    
+
+}
+
+.member-name {
+    top: 0;
+    transition: transform 0.2s;
+    transform: translateY(-100%);
+}
+
+.member-post {
+    transition: transform 0.2s;
+    transform: translateY(0%);
+}
+
+.memberimg:hover .member-name {
+    transform: translateY(0%);
+}
+
+.memberimg:hover .member-post {
+    transform: translateY(-100%);
+}
+
+@media screen and (max-width: 450px) {
+    .memberimgsize {
+        height: 20vw;
+        width: auto;
+    }
+}
+*/
+
+
+/* .memberimgsize:hover{
+	height:10vw;
+	width:auto;
+	
+} */
+/*
+
+.memberimg {
+    position: relative;
+    height: 180px;
+    //margin: 3px;
+    overflow: hidden;
+}
+*/
+
+.overlaymember {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 8000;
+    top: -100%;
+    left: 0;
+    /*   background-color: rgb(74, 30, 13); */
+    background-color: rgba(255, 115, 68, 0.8);
+    /*    background: linear-gradient(45deg, transparent, #ff7344), linear-gradient(-135deg, transparent, #a5ff3b);*/
+    overflow-y: scroll;
+    transition: all 0.5s;
+/*
+    -webkit-transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+*/
+}
+
+.overlaymember-content {
+    position: relative;
+    /*  top: 0px; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+/*    border: 3px dashed rgb(255, 255, 255);*/
+    /*   margin-top: 30px; */
+}
+
+.overlaymember a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    z-index: 100;
+}
+
+.closebtnmember {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px !important;
+    transform: rotate(90deg);
+}
+
+.closebtnmember:hover {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-height: 450px) {
+    .overlaymember {
+        overflow-y: auto;
+    }
+    .overlaymember a {
+        font-size: 20px
+    }
+    .closebtnmember {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}

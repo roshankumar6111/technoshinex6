@@ -1,0 +1,132 @@
+  html { 
+                       background: url(../images/82012.jpg) no-repeat center center fixed; 
+                       -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                         background-size: cover;
+                  } 
+.instructionbox{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    background-image: -webkit-radial-gradient(center top, ellipse cover, rgba(0, 0, 0, 0.3), rgb(0, 0, 0));
+    z-index: -1000;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+/*
+ // height: 100%;
+// */ font-weight: 800;
+
+}
+
+/*
+body{
+
+  font-family: Arial;
+}
+*/
+
+svg {
+    display: block;
+    font-size: 100px;
+    font-family: Montserrat;
+/*
+   // width: 960px;
+    //height: 300px;
+*/
+    margin: -80px auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #5c0cdb;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #129ff7;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: rgba(229, 237, 24, 0.99);
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #ed185a;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #fd3139;
+	animation-delay: -5s;
+}
+.nhtag{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:20px;
+    
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+.displayins{
+    color:aliceblue;
+    font-family: Montserrat;
+    font-size: 20pt;
+    margin-left:23vw;
+}
+.displaypoint{
+    color:whitesmoke;
+    font-family: Montserrat;
+    font-size: 15pt;
+    margin-left:30vw;
+}
+.nethunttitle{
+    position: absolute;
+    color:white;
+    font-family: Montserrat;
+    font-size:12pt;
+    top:8vh;
+    left:50%;
+    transform: translate(-50%);
+    
+}
+@media screen and (max-width:650px){
+    svg {
+    display: block;
+    font-size: 9.5em;
+    font-family: Montserrat;
+    margin: 100px auto 3px !important;
+}
+    .displayins{
+    color:aliceblue;
+    font-family: Montserrat;
+    font-size: 8pt;
+    margin-left:5vw;
+}
+    .nethunttitle{
+        font-size:10pt;
+    }
+    .displaypoint {
+        font-size:10pt;
+        margin-left:2px;
+    
+}

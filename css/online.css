@@ -1,0 +1,115 @@
+#left1 {
+    background: url("../images/onlineimg/NH.jpg");
+}
+
+#right2 {
+    background: url("../images/onlineimg/CW.jpg");
+}
+
+#left3 {
+    background: url("../images/onlineimg/ii.jpg");
+}
+
+#right4 {
+    background: url("../images/onlineimg/JC.jpg");
+}
+
+/*
+#left5 {
+    background: url("../images/onlineimg/JC.jpg");
+}
+
+#right6 {
+    background: url("../images/onlineimg/POY.jpg");
+}
+*/
+
+
+#left1,
+#right2,
+#left3,
+#right4,
+#left5,
+#right6 {
+    background-position: center center;
+/*    background-size: 100% auto;*/
+    background-size: auto 90vh;
+    background-repeat: no-repeat;
+}
+
+body {
+    background:rgba(239, 207, 168, 0.76);
+    transition: background 1s;
+}
+
+
+
+.event-name {
+    font-family: Bangers;
+    //font-weight: 700;
+    font-size: 54pt;
+    padding: 40px 100px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#right1 h1 {
+    /*    color: #009085;*/
+}
+
+.event-pera {
+    color: darkslategray;
+    font-family: Montserrat, Raleway;
+    text-align: justify;
+    font-size: 10pt;
+    line-height: 1.5em;
+    padding: 0px 70px;
+}
+.backbtn{
+    position:absolute;
+    z-index: 1000;
+    margin:20px;
+    right:20px;
+    font-size:30px;
+}
+.backbtn a{
+    color:white;
+}
+.backbtn i{
+/*
+    height:50px;
+    width:50px;
+*/
+/*    font-size: 20px;*/
+}
+
+/*
+
+@media screen and (max-width:650px){
+    .ms-left,.ms-right{
+        display: none;
+    }
+}*/
+@media screen and (max-width:650px){
+    #left1,
+#right2,
+#left3,
+#right4,
+#left5,
+#right6 {
+
+    background-size: auto 40vh !important;
+    
+    }
+    .event-name{
+       
+        font-size:30pt !important;
+        padding-left:23px;
+    }
+    .event-pera{
+       
+        font-size: 10pt !important;
+        padding-left: 23px;
+    }
+ 
+}
